@@ -1,0 +1,11 @@
+<h1>El blog de Nicolás</h1>
+
+<ul>
+	<% @entries.each do |entrie| %>
+		<li>
+			<h2><%= entrie.id %>. <%= entrie.title %></h2>
+			<p><%= entrie.body %><p>
+		</li>
+	<% end %>
+
+</ul>

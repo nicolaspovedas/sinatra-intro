@@ -1,0 +1,9 @@
+<form action="/<%= @entrie.id %>" method='post'>
+<input type="hidden" name="_method" value="PATCH" >
+
+  Title<br>
+  <input type="text" name="title" placeholder="<%= @entrie.title %>"><br>
+  Body<br>
+  <input type="text" name="body" placeholder="<%= @entrie.body %>"><br><br>
+  <input type="submit" value="Actualizar">
+</form>
